@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="10dp"
+    android:orientation="vertical"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="164dp"
+        android:orientation="horizontal"
+        tools:ignore="UselessParent">
+
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/Lib"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Libelle:"
+                android:textSize="30sp"
+                tools:ignore="HardcodedText" />
+
+
+            <TextView
+                android:id="@+id/codeB"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Code"
+                android:textSize="30dp"
+                tools:ignore="HardcodedText,SpUsage" />
+
+
+            <TextView
+                android:id="@+id/prix"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Prix:"
+                android:textSize="30dp"
+                tools:ignore="HardcodedText,SpUsage" />
+
+
+            <TextView
+                android:id="@+id/diponible"
+                android:layout_width="wrap_content"
+                android:text="dispo:"
+                android:layout_height="wrap_content"
+                android:textSize="30dp"
+                tools:ignore="SpUsage" />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="88dp"
+            android:layout_height="83dp"
+            android:layout_marginLeft="30dp"
+            android:orientation="horizontal"
+            android:translationX="45dp"
+            android:translationY="70dp"
+            tools:ignore="RtlHardcoded">
+
+            <ImageView
+                android:id="@+id/image"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@android:drawable/ic_menu_camera"
+                tools:ignore="ContentDescription" />
+        </LinearLayout>
+
+        <CheckBox
+            android:id="@+id/check"
+            android:layout_width="48dp"
+            android:layout_height="wrap_content" />
+
+
+    </LinearLayout>
+
+</LinearLayout>
